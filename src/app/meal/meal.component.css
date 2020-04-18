@@ -1,0 +1,30 @@
+                    .meal h1
+					{
+					  margin-top:62px;
+					  font-style: italic;
+					  text-align:center;
+					  font-weight:bold;
+					  color:#F1C40F;
+					  font-family: poppins; 
+					}
+					.meal p
+					{ 
+					  font-style: italic;
+					  text-align:center;
+					  font-weight:bold;
+					  font-family: poppins;
+					  font-size: 150%; 
+					  
+					}
+					
+                    .meal img
+                    {
+                        height: 80vh;
+                        width: 100%;
+					}
+				    .btn
+					{
+						margin-left: 44%;
+						background-color:#C0392B;
+						margin-top: 1% ;
+					}

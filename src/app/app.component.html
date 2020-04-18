@@ -1,0 +1,40 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+  <div class="row"> 
+    <div class="col-12">
+      <!--menu Bar-->
+      <div class="bs-example">
+          <nav class="navbar navbar-expand-sm navbar-success bg-dark fixed-top ">
+            
+              <img src="assets/image/food1.png" href="#" width="100px" height="50px">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav ml-auto">
+                      
+                    
+                      <a routerLink="/Home" class="nav-item nav-link underline-menu active text-white">Home</a>
+                      <a routerLink="/The Menu" class="nav-item nav-link underline-menu text-white  ">The Menu</a>
+                      <a routerLink="/about" class="nav-item nav-link underline-menu text-white">About Us</a>
+                      <a routerLink="/Vender" class="nav-item nav-link underline-menu text-white ">Vendor</a>
+                      <a routerLink="/Why Swad" class="nav-item nav-link underline-menu  text-white">Why Swad</a>
+                      <a routerLink="/Online Order" class="nav-item nav-link underline-menu text-white ">Online Order</a>
+                    
+                  </div>
+              </div>
+            </nav>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <router-outlet></router-outlet>
+      
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.example{
+    background: #BDC3C7;
+    padding-top: 25vh;
+    height: 135%;
+    
+    
+}
+
+
+.form-container{
+    
+    background: rgb(159, 184, 145);
+    border-radius:20px;
+    padding:30px;
+    box-shadow: 0px 0px 10px 0px;
+    
+    
+}
+.bg{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:-35px;
+    left: 43%;
+    border-radius: 15px;
+}
